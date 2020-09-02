@@ -5,16 +5,25 @@
  * @param {number} end 结束范围
  * @returns {number} 返回和
  */
+
 const getSumOfTriple = (arr, start, end) => {
-  // 请实现……
-};
+    let arr1 = arr.filter(item => item > start && item < end)
+    return arr1.reduce((sum, item) => {
+        if (item % 3 === 0) {
+            sum += item
+        }
+        return sum
+    }, 0)
+
+}
+
+
 
 // * ---------------- 实现的效果：
 
 {
   const arr = [5, 8, 3, 9, 4, 7, 1, 2, 6];
 
-  //          [      3  9              6]
 
   console.log(getSumOfTriple(arr)); // => 18
 }
