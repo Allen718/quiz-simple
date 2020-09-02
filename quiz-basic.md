@@ -12,31 +12,31 @@
 | 名词           | 是什么               |
 | :------------- | :------------------- |
 | Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
-| npx            | 是 ……                |
-| nvm            | 是 ……                |
-| nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
-| Flux           | 是 ……                |
-| Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
-| TDD            | 是 ……                |
-| Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
+| npm            | 是node.js的包管理工具  |
+| npx            | 是解决全局命令行工具只能有一个的问题  |
+| nvm            | 是一个nodejs的版本管理工具  |
+| nrm            | 是 npm的源管理器  |
+| yarn           | 是 和npm功能差不多，包安装管理工具|
+| React          | 是目前流行的一套前端框架|
+| Vue            | 是目前流行的是一套构建用户界面的渐进式框架。               |
+| Flux           | 是               |
+| Mobx           | 是用作全局状态管理的框架               |
+| MVVM           | 是Model数据模型、View Ui视图、ViewModel三者               |
+| TDD            | 是 (Test-Driven Development)测试驱动开发                |
+| Jest/Mocha     | 是 单元测试工具            |
+| node_modules   |  模块存放各种所依赖资源               |
+| package.json   | 是脚本文件             |
+| ECMAScript     | 是欧洲计算机委员会制定的关于js的标准      |
 | Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
+| Babel          | 是编译js文件的编译器               |
+| Webpack        | 是目前流行的打包工具               |
+| SSR            | 是                |
 | BFF            | 是 ……                |
 | Serverless     | 是 ……                |
 | PWA            | 是 ……                |
-| V8             | 是 ……                |
+| V8             | 是V8引擎               |
 | libuv          | 是 ……                |
-| Stack Overflow | 是 ……                |
+| Stack Overflow | 是一个国外的论谈          |
 | Deno           | 是 ……                |
 
 ## Q2
@@ -50,3 +50,4 @@
 > - 掘金、知乎
 
 答：
+Stack Overflow  知乎 掘金 
