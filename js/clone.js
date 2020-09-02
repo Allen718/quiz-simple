@@ -3,7 +3,19 @@
 
 // * ---------------- 解决下文中缺少 clone 函数的问题……
 // 在这里写代码……
-
+//1.我常用的办法是
+function clone(data){
+return JSON.parse(JSON.stringfy(data))
+}
+// 2. 也可以使用递归的办法
+function clone(data){
+let newobj=data.constructor===Array?[]:{}
+if(typeof data!=='object'){return}
+  for( let i in data){
+  newobj[i]=typeof data[i]==='object'?clone(data[i]):data[i]
+  }
+return newobj
+}
 // * ---------------- 实现的效果：
 
 {
