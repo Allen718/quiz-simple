@@ -9,10 +9,13 @@ Git 是一个广泛使用的版本管理工具，适合团队开发。
 
 请直接在这里作答。
 
-答：
+答：git init / 创建.gitignore/git status/ git add  /git commit /使用git log 查看提交记录/git reset --hard 版本号回退/git reflog 查看所用操作
 
 ## Q2
 
 你知道和用过哪些 Git 的方法论和技巧
 
-答：
+答：git能够创建分支可以进行多版本切换和开发，然后后面也可以合并，但是合并过程也许会有冲突
+使用gitignore 可以对我们不想要提交的东西隐藏
+在webstrom里面可以对一个文件的不同部分分次提交
+对于提交频繁一些，以免做错全线崩坍
