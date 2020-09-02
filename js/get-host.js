@@ -4,8 +4,10 @@
  * @returns {string} 返回 url 中的 host
  */
 const getHostName = (url) => {
-  // 请实现……
-};
+    let tag = /(https:\/\/)/g
+    tag2 = /\/cn\/\w+/g
+    return url.replace(tag, '').replace(tag2, '')
+}
 
 // * ---------------- 实现的效果：
 {
