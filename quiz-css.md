@@ -29,7 +29,7 @@ Demo 代码可以新建一个或多个文件（不限），
   flex-grow: 1;
 }
 ```
-
+关于这道题，我不是很明白什么意思，css的工具了解的不是很多，一般项目中使用的是scss来写css样式。
 ## Q2
 
 你用过哪些 CSS 的方法论和工具  
@@ -45,3 +45,9 @@ Demo 代码可以新建一个或多个文件（不限），
 > ```
 
 答：
+css常使用box-sizing:border-box
+做动画效果配合使用@keyframes +animation transfrom+transition 
+使用媒体查询，实现响应式布局
+使用normalize.css
+使用padding来撑开高度
+页面布局一般常用flex布局
