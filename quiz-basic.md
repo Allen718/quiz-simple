@@ -30,14 +30,14 @@
 | Electron       | 是 ……                |
 | Babel          | 是编译js文件的编译器               |
 | Webpack        | 是目前流行的打包工具               |
-| SSR            | 是                |
+| SSR            | 是 关于安全相关               |
 | BFF            | 是 ……                |
 | Serverless     | 是 ……                |
 | PWA            | 是 ……                |
 | V8             | 是V8引擎               |
 | libuv          | 是 ……                |
 | Stack Overflow | 是一个国外的论谈          |
-| Deno           | 是 ……                |
+| Deno           | 是               |
 
 ## Q2
 
@@ -50,4 +50,4 @@
 > - 掘金、知乎
 
 答：
-Stack Overflow  知乎 掘金 
+Stack Overflow  知乎 掘金 github  阮一峰的博客  
